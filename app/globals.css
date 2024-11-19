@@ -1,0 +1,75 @@
+body{
+  background-color: rgb(34, 34, 34);
+}
+
+.listofpra{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1{
+  font-size: 4rem;
+  color: white;
+}
+
+button{
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: rgb(177, 167, 167);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease ;
+}
+.addt{
+  background-color: rgb(80, 238, 80);
+}
+.addt:hover{
+  background-color: rgb(40, 173, 40);
+}
+
+.delett{
+  background-color: rgb(208, 34, 34);
+}
+.delett:hover{
+  background-color: rgb(121, 4, 4);
+}
+
+.moveb{
+  background-color: rgb(34, 191, 208);
+}
+.moveb:hover{
+  background-color: rgb(3, 54, 125);
+}
+
+input[type="text"]{
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid ;
+  border-radius: 5px;
+  color: black;
+}
+ol{
+  padding: 0;
+}
+li{
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: white;
+  border: 3px solid hsl(0, 3%, 79%);
+  display: flex;
+  align-items: center;
+}
+.text{
+  flex: 1;
+  
+}
+.delett,.moveb{
+padding: 8pa 12px;
+font-size: 1.4rem;
+margin-left: 10px;
+
+}
